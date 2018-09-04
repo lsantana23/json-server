@@ -1,42 +1,34 @@
 {
-  "posts": [
+  "operadoras": [
+    {
+      "id": 0,
+      "nome": "Selecione"
+    },
     {
       "id": 1,
-      "title": "Bradesco"
+      "nome": "Bradesco"
     },
     {
       "id": 2,
-      "title": "Sulamerica"
+      "nome": "Sulamerica"
     },
     {
       "id": 3,
-      "title": "Cassi"
+      "nome": "Cassi"
     },
     {
       "id": 4,
-      "title": "Economus"
+      "nome": "Economus"
     },
     {
       "id": 5,
-      "title": "Fapes"
+      "nome": "Fapes"
     },
     {
       "id": 6,
-      "title": "Cabesp"
+      "nome": "Cabesp"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  ] ,
   "profile": {
     "name": "typicode"
   }
