@@ -27,7 +27,6 @@
     {
       "id": 6,
       "nome": "Cabesp"
-<<<<<<< HEAD
     }
   ],
   "calendario": [
@@ -45,10 +44,8 @@
       "id": "2",
       "nome": "Mensal",
       "descricao": "Ações realizadas nos últimos 30 dias"
-=======
->>>>>>> 5d911b27b1b7b922abac0e7cc2c7f9d01f77baa4
     }
-  ] ,
+  ],
   "profile": {
     "name": "typicode"
   }
