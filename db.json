@@ -46,6 +46,53 @@
       "descricao": "Ações realizadas nos últimos 30 dias"
     }
   ],
+  "mensagens": [
+    {
+      "id": "1",
+      "texto": "COMUNICADO BANESCAIXA - ENCERRAMENTO DE ...",
+      "data": "13:45",
+      "class": "list-row feature",
+      "icon": "fa fa-info-circle",
+      "linkImg": "assets/arq/Comunicado_Salamerica.jpg",
+      "param": "1"
+    },
+    {
+      "id": "2",
+      "texto": "Fapes - Data para envio de arquivos.xml",
+      "data": "22/07",
+      "class": "list-row",
+      "icon": "",
+      "linkImg": "assets/arq/calendários-fapes.jpg",
+      "param": "1"
+    },
+    {
+      "id": "3",
+      "texto": "Economus - Entrega de contas Médicas",
+      "data": "29/08",
+      "class": "list-row",
+      "icon": "",
+      "linkImg": "assets/arq/Economus.jpg",
+      "param": "1"
+    },
+    {
+      "id": "4",
+      "texto": "O sistema esta fora do ar dia 12/03",
+      "data": "17:30",
+      "class": "list-row feature-listed",
+      "icon": "fa fa-info-circle",
+      "linkImg": "assets/arq/Informativo_Manual_fapes_Odontológico.zip",
+      "param": "2"
+    },
+    {
+      "id": "5",
+      "texto": "Fapes_Informativo aos credenciados Odont...",
+      "data": "01/09",
+      "class": "list-row",
+      "icon": "",
+      "linkImg": "assets/arq/Economus.jpg",
+      "param": "1"
+    }
+  ],
   "profile": {
     "name": "typicode"
   }
