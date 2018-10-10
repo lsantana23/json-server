@@ -102,24 +102,24 @@
               },
               { 
                 "id": "2", 
-                "name": "recebidos", 
+                "nome": "recebidos", 
                 "valor": "33", 
                 "class": "panel panel-received small"
               },
               { "id": "3", 
-                "name": "liberados", 
+                "nome": "liberados", 
                 "valor": "7", 
                 "class": "panel panel-released small"
               },
               { 
                 "id": "4", 
-                "name": "exportados", 
+                "nome": "exportados", 
                 "valor": "13", 
                 "class": "panel panel-exported small"
               },
               { 
                 "id": "5", 
-                "name": "retornados", 
+                "nome": "retornados", 
                 "valor": "5", 
                 "class": "panel panel-recentes small"
               }
