@@ -1,99 +1,130 @@
-{
-  "operadoras": [
-    {
-      "id": 0,
-      "nome": "Selecione"
-    },
-    {
-      "id": 1,
-      "nome": "Bradesco"
-    },
-    {
-      "id": 2,
-      "nome": "Sulamerica"
-    },
-    {
-      "id": 3,
-      "nome": "Cassi"
-    },
-    {
-      "id": 4,
-      "nome": "Economus"
-    },
-    {
-      "id": 5,
-      "nome": "Fapes"
-    },
-    {
-      "id": 6,
-      "nome": "Cabesp"
-    }
-  ],
-  "calendario": [
-    {
-      "id": "0",
-      "nome": "Diário",
-      "descricao": "Ações realizadas hoje"
-    },
-    {
-      "id": "1",
-      "nome": "Semanal",
-      "descricao": "Ações realizadas nos últimos 7 dias"
-    },
-    {
-      "id": "2",
-      "nome": "Mensal",
-      "descricao": "Ações realizadas nos últimos 30 dias"
-    }
-  ],
-  "mensagens": [
-    {
-      "id": "1",
-      "texto": "COMUNICADO BANESCAIXA - ENCERRAMENTO DE ...",
-      "data": "13:45",
-      "class": "list-row feature",
-      "icon": "fa fa-info-circle",
-      "linkImg": "assets/arq/Comunicado_Salamerica.jpg",
-      "param": "1"
-    },
-    {
-      "id": "2",
-      "texto": "Fapes - Data para envio de arquivos.xml",
-      "data": "22/07",
-      "class": "list-row",
-      "icon": "",
-      "linkImg": "assets/arq/calendários-fapes.jpg",
-      "param": "1"
-    },
-    {
-      "id": "3",
-      "texto": "Economus - Entrega de contas Médicas",
-      "data": "29/08",
-      "class": "list-row",
-      "icon": "",
-      "linkImg": "assets/arq/Economus.jpg",
-      "param": "1"
-    },
-    {
-      "id": "4",
-      "texto": "O sistema esta fora do ar dia 12/03",
-      "data": "17:30",
-      "class": "list-row feature-listed",
-      "icon": "fa fa-info-circle",
-      "linkImg": "assets/arq/Informativo_Manual_fapes_Odontológico.zip",
-      "param": "2"
-    },
-    {
-      "id": "5",
-      "texto": "Fapes_Informativo aos credenciados Odont...",
-      "data": "01/09",
-      "class": "list-row",
-      "icon": "",
-      "linkImg": "assets/arq/Economus.jpg",
-      "param": "1"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+          {
+            "operadoras": [
+              {
+                "id": 0,
+                "nome": "Selecione"
+              },
+              {
+                "id": 1,
+                "nome": "Bradesco"
+              },
+              {
+                "id": 2,
+                "nome": "Sulamerica"
+              },
+              {
+                "id": 3,
+                "nome": "Cassi"
+              },
+              {
+                "id": 4,
+                "nome": "Economus"
+              },
+              {
+                "id": 5,
+                "nome": "Fapes"
+              },
+              {
+                "id": 6,
+                "nome": "Cabesp"
+              }
+            ],
+            "calendario": [
+              {
+                "id": "0",
+                "nome": "Diário",
+                "descricao": "Ações realizadas hoje"
+              },
+              {
+                "id": "1",
+                "nome": "Semanal",
+                "descricao": "Ações realizadas nos últimos 7 dias"
+              },
+              {
+                "id": "2",
+                "nome": "Mensal",
+                "descricao": "Ações realizadas nos últimos 30 dias"
+              }
+            ],
+            "mensagens": [
+              {
+                "id": "1",
+                "texto": "COMUNICADO BANESCAIXA - ENCERRAMENTO DE ...",
+                "data": "13:45",
+                "class": "list-row feature",
+                "icon": "fa fa-info-circle",
+                "linkImg": "assets/arq/Comunicado_Salamerica.jpg",
+                "param": "1"
+              },
+              {
+                "id": "2",
+                "texto": "Fapes - Data para envio de arquivos.xml",
+                "data": "22/07",
+                "class": "list-row",
+                "icon": "",
+                "linkImg": "assets/arq/calendários-fapes.jpg",
+                "param": "1"
+              },
+              {
+                "id": "3",
+                "texto": "Economus - Entrega de contas Médicas",
+                "data": "29/08",
+                "class": "list-row",
+                "icon": "",
+                "linkImg": "assets/arq/Economus.jpg",
+                "param": "1"
+              },
+              {
+                "id": "4",
+                "texto": "O sistema esta fora do ar dia 12/03",
+                "data": "17:30",
+                "class": "list-row feature-listed",
+                "icon": "fa fa-info-circle",
+                "linkImg": "assets/arq/Informativo_Manual_fapes_Odontológico.zip",
+                "param": "2"
+              },
+              {
+                "id": "5",
+                "texto": "Fapes_Informativo aos credenciados Odont...",
+                "data": "01/09",
+                "class": "list-row",
+                "icon": "",
+                "linkImg": "assets/arq/Economus.jpg",
+                "param": "1"
+              }
+            ],
+            "lotes": [
+              { 
+                "id": "1", 
+                "name": "rejeitados", 
+                "valor": "this.getRandom(1,100)", 
+                "class": "panel first panel-rejected small"
+              },
+              { 
+                "id": "2", 
+                "name": "recebidos", 
+                "valor": "this.getRandom(1,100)", 
+                "class": "panel panel-received small"
+              },
+              { "id": "3", 
+                "name": "liberados", 
+                "valor": "this.getRandom(1,100)", 
+                "class": "panel panel-released small"
+              },
+              { 
+                "id": "4", 
+                "name": "exportados", 
+                "valor": "this.getRandom(1,100)", 
+                "class": "panel panel-exported small"
+              },
+              { 
+                "id": "5", 
+                "name": "retornados", 
+                "valor": "this.getRandom(1,100)", 
+                "class": "panel panel-recentes small"
+              }
+            ],
+            "profile": {
+              "name": "typicode"
+            }
+          }
