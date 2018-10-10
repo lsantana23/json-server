@@ -96,31 +96,31 @@
             "lotes": [
               { 
                 "id": "1", 
-                "name": "rejeitados", 
-                "valor": "this.getRandom(1,100)", 
+                "nome": "rejeitados", 
+                "valor": "4", 
                 "class": "panel first panel-rejected small"
               },
               { 
                 "id": "2", 
                 "name": "recebidos", 
-                "valor": "this.getRandom(1,100)", 
+                "valor": "33", 
                 "class": "panel panel-received small"
               },
               { "id": "3", 
                 "name": "liberados", 
-                "valor": "this.getRandom(1,100)", 
+                "valor": "7", 
                 "class": "panel panel-released small"
               },
               { 
                 "id": "4", 
                 "name": "exportados", 
-                "valor": "this.getRandom(1,100)", 
+                "valor": "13", 
                 "class": "panel panel-exported small"
               },
               { 
                 "id": "5", 
                 "name": "retornados", 
-                "valor": "this.getRandom(1,100)", 
+                "valor": "5", 
                 "class": "panel panel-recentes small"
               }
             ],
